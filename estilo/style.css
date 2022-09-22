@@ -17,6 +17,7 @@
 html, body{
     font-family: var(--fontpadrao);
     min-height: 100vh;
+    min-width: 100vh;
     background-color: gray;
 }
 
@@ -62,7 +63,7 @@ section{
     font-family: var(--fonttexto);
     font-size: 1.3em;
     padding: 10vh 0px 10vh 30px;
-    line-height: 1.6em;
+    line-height: 1.8em;
 }
 
 section.normal{
@@ -79,11 +80,11 @@ section.imagem{
 }
 
 section.normal>p{
-    border-radius: 5px 25px 5px 25px;
-    padding: 12px 0px 12px 30px;
+    padding-left: 30px;
 }
 
 section.imagem>p{
+    display: inline-block;
     background-color: rgba(90, 90, 90, 0.4);
     text-shadow: 2px 3px 4px black;
     border-radius: 5px 30px 5px 30px;

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --fontpadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonttitulo: 'Passion One', cursive;
+    --fonttexto: 'Sriracha', cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    font-family: var(--fontpadrao);
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header>h1{
+    font-family: var(--fonttitulo);
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 40px;
+    font-variant: small-caps;
+}
+
+header>p{
+    padding-bottom: 40px;
+    font-size: 0.8em;
+}
+
+a.miltonduarte{
+    padding: 1px 2px 1px 2px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    transition: 0.3s;
+    color: blue;
+    border-color: blue;
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonttexto);
+    font-size: 1.3em;
+    padding: 10vh 0px 10vh 50px;
+    line-height: 1.6em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    height: 260px;
+    background-color: rgb(80, 80, 80);
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset 5px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+section.normal>p{
+    border-radius: 5px 25px 5px 25px;
+    padding: 12px 0px 12px 30px;
+    width: 400px;
+}
+
+section.imagem>p{
+    background-color: rgba(90, 90, 90, 0.4);
+    text-shadow: 2px 3px 4px black;
+    border-radius: 5px 30px 5px 30px;
+    padding: 12px 0px 12px 30px;
+    width: 400px;
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+footer{
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

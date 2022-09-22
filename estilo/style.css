@@ -17,7 +17,6 @@
 html, body{
     font-family: var(--fontpadrao);
     min-height: 100vh;
-    height: 100vh;
     background-color: white
 }
 
@@ -62,9 +61,8 @@ a:hover{
 section{
     font-family: var(--fonttexto);
     font-size: 1.3em;
-    padding: 10vh 30px 10vh 30px;
+    padding: 10vh 45px 10vh 45px;
     line-height: 1.8em;
-    width: 100%;
 }
 
 section.normal{

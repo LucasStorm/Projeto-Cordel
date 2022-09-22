@@ -61,7 +61,7 @@ a:hover{
 section{
     font-family: var(--fonttexto);
     font-size: 1.3em;
-    padding: 10vh 0px 10vh 50px;
+    padding: 10vh 0px 10vh 30px;
     line-height: 1.6em;
 }
 
@@ -81,7 +81,6 @@ section.imagem{
 section.normal>p{
     border-radius: 5px 25px 5px 25px;
     padding: 12px 0px 12px 30px;
-    width: 400px;
 }
 
 section.imagem>p{

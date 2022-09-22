@@ -89,7 +89,7 @@ section.imagem>p{
     border-radius: 5px 30px 5px 30px;
     padding: 12px 0px 12px 15px;
     margin-left: 20px;
-    width: 400px;
+    max-width: 350px;
 }
 
 section#img01{
